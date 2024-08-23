@@ -22,7 +22,7 @@ export default function NestedDynamicIDInfoFromProject({
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start p-24">
+    <main className="flex flex-col items-center justify-start">
       <h1>
         Projects details {params.projectID} has the nested dynamic route ID of{" "}
         {params.nestedDynamicID}

@@ -7,7 +7,7 @@ export default function ProjectsNotFound() {
   const projectID = params.projectID;
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start p-24">
+    <main className="flex flex-col items-center justify-start">
       <h1>Project number {projectID} was not found</h1>
     </main>
   );

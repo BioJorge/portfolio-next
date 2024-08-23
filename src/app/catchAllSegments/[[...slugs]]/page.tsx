@@ -26,7 +26,7 @@ export default function CatchAllSegments({
     );
   } else if (params.slugs) {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-start p-24">
+      <main className="flex flex-col items-center justify-start">
         {params.slugs?.map((slug, index) => (
           <div key={index}>
             <h1>{slug}</h1>
@@ -36,7 +36,7 @@ export default function CatchAllSegments({
     );
   } else {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-start p-24">
+      <main className="flex flex-col items-center justify-start">
         <h1>Default catch all segments page</h1>
       </main>
     );

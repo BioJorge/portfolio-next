@@ -14,7 +14,7 @@ export default function ProjectsDetailsPage({
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start p-24">
+    <main className="flex flex-col items-center justify-start p-2">
       <h1>Projects details from {params.projectID}</h1>
       <a href={`/projects/${params.projectID}/nestedDynamic/1`}>1</a>
       <a href={`/projects/${params.projectID}/nestedDynamic/2`}>2</a>
