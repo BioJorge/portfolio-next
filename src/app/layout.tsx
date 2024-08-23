@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
+  //the component passed on page.tsx is passed as children here, to render the app
   children,
 }: Readonly<{
   children: React.ReactNode;
